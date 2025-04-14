@@ -1,5 +1,5 @@
-# Project Name
-> Outline a brief description of your project.
+# Project Name:Boom Bikes
+> Outline a brief description of your project: This project involves building a Multiple Linear Regression model to predict the daily demand for shared bikes using historical data. The dataset (day.csv) contains various features including weather conditions, seasonal indicators, and other temporal attributes that influence bike rentals.
 
 
 ## Table of Contents
@@ -12,41 +12,28 @@
 
 ## General Information
 - Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- Background: To predict daily bike-sharing demand for Boom Bikes.
+- Business problem:You are tasked with building a multiple linear regression model to predict daily bike-sharing demand for Boom Bikes, a US-based provider impacted by the COVID-19 pandemic. The goal is to help them create a data-driven       business strategy post-lockdown.
+- What is the dataset that is being used: download.csv
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
-## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+## Conclusions:
+- Model Performance: The R-squared score shows how much of the variation in bike demand can be explained by the selected features. A higher score indicates a better fit.
+- Key Influencing Features:Variables like temperature, season, weather situation, and year significantly influence bike demand. These features have strong relationships with the target variable (cnt).
+- Positive Correlations: Higher temperatures and clear weather are associated with increased bike usage.
+  Seasonal effects (like summer or fall) also contribute positively.
+- Model Assumptions: The residuals distribution appears normal, supporting the validity of linear regression assumptions like linearity and homoscedasticity.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
-## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+## Technologies Used- Programming Language
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+Python: Main language used for data manipulation, modeling, and visualization
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@Anusha-G06] - feel free to contact me!
 
 
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
